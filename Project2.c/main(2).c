@@ -27,6 +27,17 @@ int test_copy_array()
 	return 0;
 }
 
+void copy_array(int form[], int to[], int sz)
+{
+	int i = 0;
+
+	for (int i = 0; i < sz; i++)
+	{
+		to[i] = form[i];
+
+	}
+}
+
 
 
 	
